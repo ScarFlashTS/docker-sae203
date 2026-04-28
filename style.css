@@ -1,0 +1,111 @@
+.
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f6f8fa;
+}
+
+
+header
+{
+	background-color: #24292e;
+	color: #fff;
+	padding: 3rem 1rem;
+	text-align: center;
+}
+
+header h1
+{
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+header p
+{
+	font-size: 1.2rem;
+	color: #c8e1ff;
+}
+
+
+.container
+{
+	max-width: 1000px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+
+
+.section-title
+{
+	font-size: 2rem;
+	border-bottom: 2px solid #eaecef;
+	padding-bottom: 0.5rem;
+	margin-bottom: 1.5rem;
+	color: #24292e;
+}
+
+
+.grid
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.card
+{
+	background-color: #fff;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	padding: 1.5rem;
+	flex: 1 1 calc(50% - 1.5rem);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+
+.card h3
+{
+	color: #0366d6;
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+}
+
+.card ul
+{
+	list-style-type: disc;
+	margin-left: 1.5rem;
+	color: #586069;
+}
+
+.card ul li
+{
+	margin-bottom: 0.5rem;
+}
+
+
+footer
+{
+	text-align: center;
+	padding: 2rem 1rem;
+	margin-top: 2rem;
+	background-color: #fff;
+	border-top: 1px solid #e1e4e8;
+	color: #586069;
+	font-size: 0.9rem;
+}
+
+footer a
+{
+	color: #0366d6;
+	text-decoration: none;
+}
+
