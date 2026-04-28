@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-COPY ./site_maths/ /var/www/html/
+COPY ./site_video/ /var/www/html/
 
 EXPOSE 80
 
